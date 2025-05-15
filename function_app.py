@@ -18,7 +18,7 @@ def FunctionJnanaranjan(req: func.HttpRequest) -> func.HttpResponse:
 
     if name:
         response = {
-            "message": f"Hello, {name}!",
+            "message": f"Hello there, {name}!",
             "success": True
         }
     else:
